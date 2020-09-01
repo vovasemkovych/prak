@@ -1,0 +1,205 @@
+body, html {
+  height: 100%;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar {
+  display: none;/*Chrome Safari Opera*/
+}
+
+.bg { 
+  /* The image used */
+  background-image: url("images/test.jpg");
+ 
+
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.bgBody { 
+  background-image: url("images/pinkSky.jpg");
+  height: 100%; 
+  background-repeat: no-repeat;
+}
+.bgOneMore { 
+  background-image: url("images/backBody.jpg");
+  height: 100%; 
+  background-repeat: no-repeat;
+}
+.centerBlock{
+	padding-top: 255px;
+}
+.welcome{
+	text-decoration: underline;	
+}
+.menuList{
+	font-size: 20px;
+}
+.menuList:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+.container {
+background-image: url("images/container.jpg")
+  width: 600px;
+  
+  padding-top: 250px;
+  margin: 0 auto
+}
+.contactsUL{
+	list-style: none;
+}
+.ancContact {
+  color: white;
+	text-decoration: none;
+	
+}
+.ancContact:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.projDiv{
+	padding-top: 5%;
+	padding-right: 10%;
+	padding-left: 10%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.jumbotron{
+	background-image: url("images/container.jpg")
+	 
+}
+.flexAbout{
+	display: flex;
+}
+.textBlock {
+ 
+  display: block;
+  position: relative;
+}
+
+.textBlock::after {
+  content: "";
+  background-image: url(images/page.jpg);
+  background-size: cover; 
+  border-style: groove;
+  opacity: 0.5;
+  top: 0;
+  left: 35px;
+  bottom: 0;
+  right: 35px;
+  position: absolute;
+  z-index: -1;   
+}
+.carouselImg{
+  max-height: 800px;
+}
+.bgAb { 
+
+  background:lightgrey;
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+.container-fluid{
+	max-width: 90%;
+	padding-top:25px; 
+}
+.imgAbout{
+	max-width: 300px;
+	max-height:300px;
+	border-radius: 15px;
+	border-style: groove;
+}
+.aboutP {
+  color: black;
+  -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  font-size: 25px;
+}
+article{
+font-family: 'Playfair Display', serif;
+
+}
+.topBackGR { 
+  background-image:  url(images/blog.jpg);
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+	justify-content: center;
+	align-self: center;
+}
+.h1Blog{
+	
+padding-top: 280px;
+padding-left: 100px;
+  text-transform: uppercase;
+  background: linear-gradient(30deg, #87e3ff 33%, #e8acd7 66%, #ff96e1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+}
+.main-section{
+	margin: 5px;
+}
+.btnNavPost:hover{
+-webkit-animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        background: black;
+	        text-decoration-color: white;
+}
+@-webkit-keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-180deg);
+            transform: rotateX(-180deg);
+  }
+}
+@keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-180deg);
+            transform: rotateX(-180deg);
+  }
+}
+
+.arrow {
+
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+
+}
+
+
+
+

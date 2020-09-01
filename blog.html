@@ -4,71 +4,138 @@
     <meta charset="UTF-8">
     <title>Personal blog</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
     <link rel="shortcut icon" href="https://img.icons8.com/office/16/000000/parse-from-clipboard.png" >
     <link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+	<script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
 </head>
-<body>
-   <ul class = "menuList">
-				<li class="menuListLines"><a href="about.html">About me</a></li>
-				<li class="menuListLines"><a href="projects.html">Projects</a></li>
-				<li class="menuListLines"><a href="contact.html">Contacts</a></li>
-				<li class="menuListLines"><a href="blog.html">Blog</a></li>
-				
-			</ul>
+ <div class="menu-wrap">
+  <input type="checkbox" class="toggler">
+  <div class="hamburger"><div></div></div>
+  <div class="menu">
+    <div>
+      <div>
+        <ul class = "menuList">
+          <li class="menuListLines"><a href="index.html">Home</a></li>
+        <li class="menuListLines"><a href="about.html">About me</a></li>
+        <li class="menuListLines"><a href="projects.html">Projects</a></li>
+        <li class="menuListLines"><a href="contact.html">Contacts</a></li>
+        <li class="menuListLines"><a href="blog.html">Blog</a></li>
+        
+      </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+<body class="bgBody showcase">
+	
+  <div class="topBackGR" align="center" >
+	<h1 class="h1Blog" style="font-family: 'Arvo', serif;-webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;">Personal thougts about something</h1>
 
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<div class="container">
 
-<div align="center" style="border-bottom: 5px solid black"><h1>Personal thougts about something</h1></div>
-            <a href="menu.html"><img src="images/menu_ico.ico" alt="menu" style="max-width: 25px;max-height: 25px "></a>
-<div class="container-fluid">
+  <a data-scroll href="#full" onclick="toStart()">
+    <div class="arrow"></div>
+  </a>
+</div>
+<div></div>
+</div>
+    
+<div class=" container-fluid" id="start" >
+
     <div class="row">
         
         <div class="col-md-10 col-sm-12 col-xs-12">
             <main id="main-doc">
-                <section class="main-section " style="border: 5px solid black" id="post1" >
-                    <img src="" alt="blogIMG">
-                <h2>blog title</h2>
-                <time>date</time>
-                 <article>
-                    <p>Lorem ipsul dolor</p>
-                </article>	
-                </section>
+            	<section class="main-section " style="border: 5px solid black" id="post1" >
+            	<div class="card flex-row" style="width:100%;max-height: 200px;">
+    			<img class="card-img-top" src="images/nope.png" alt="Card image" style="max-width: 200px;max-height: 200px;" >
+  				<div class="card-body">
+    			<h4 class="card-title text-dark">First CV</h4>
+    			<p class="card-text text-dark">It was my first try to make a site. So I decided to make CV using such technologies as HTML5 and CSS3.</p>
+        		<a href="#" class="card-link">Show more</a>
+   				
+  		</div>
+	</div>
+</section>
                 <section class="main-section " style="border: 5px solid black" id="post2" >
-                    <img src="" alt="blogIMG">
-                <h2>blog title</h2>
-                <time>date</time>
-                 <article>
-                    <p>Lorem ipsul dolor</p>
-                </article>
-                </section>
-                <section class="main-section " style="border: 5px solid black" id="post3" >
-                    <img src="" alt="blogIMG">
-                <h2>blog title</h2>
-                <time>date</time>
-                 <article>
-                    <p>Lorem ipsul dolor</p>
-                </article>
-                </section>
+            	<div class="card flex-row" style="width:100%;max-height: 200px;">
+    			<img class="card-img-top" src="images/nope.png" alt="Card image" style="max-width: 200px;max-height: 200px;" >
+  				<div class="card-body">
+    			<h4 class="card-title text-dark">First CV</h4>
+    			<p class="card-text text-dark">It was my first try to make a site. So I decided to make CV using such technologies as HTML5 and CSS3.</p>
+        		<a href="#" class="card-link">Show more</a>
+   				 
+	</div>
+</section>
+<section class="main-section " style="border: 5px solid black" id="post3" >
+            	<div class="card flex-row" style="width:100%;max-height: 200px;">
+    			<img class="card-img-top" src="images/nope.png" alt="Card image" style="max-width: 200px;max-height: 200px;" >
+  				<div class="card-body">
+    			<h4 class="card-title text-dark">First CV</h4>
+    			<p class="card-text text-dark">It was my first try to make a site. So I decided to make CV using such technologies as HTML5 and CSS3.</p>
+        		<a href="#" class="card-link">Show more</a>
+   				
+  		</div>
+	</div>
+</section>
+<section class="main-section " style="border: 5px solid black" id="post4" >
+            	<div class="card flex-row" style="width:100%;max-height: 200px;">
+    			<img class="card-img-top" src="images/nope.png" alt="Card image" style="max-width: 200px;max-height: 200px;" >
+  				<div class="card-body">
+    			<h4 class="card-title text-dark">First CV</h4>
+    			<p class="card-text text-dark">It was my first try to make a site. So I decided to make CV using such technologies as HTML5 and CSS3.</p>
+        		<a href="#" class="card-link">Show more</a>
+   				>
+  		</div>
+	</div>
+</section>
+<section class="main-section " style="border: 5px solid black" id="post5" >
+            	<div class="card flex-row" style="width:100%;max-height: 200px;">
+    			<img class="card-img-top" src="images/nope.png" alt="Card image" style="max-width: 200px;max-height: 200px;" >
+  				<div class="card-body">
+    			<h4 class="card-title text-dark">First CV</h4>
+    			<p class="card-text text-dark">It was my first try to make a site. So I decided to make CV using such technologies as HTML5 and CSS3.</p>
+        		<a href="#" class="card-link">Show more</a>
+   				 
+  		</div>
+	</div>
+</section>
+<section class="main-section " style="border: 5px solid black" id="post6" >
+            	<div class="card flex-row" style="width:100%;max-height: 200px;">
+    			<img class="card-img-top" src="images/nope.png" alt="Card image" style="max-width: 200px;max-height: 200px;" >
+  				<div class="card-body">
+    			<h4 class="card-title text-dark">First CV</h4>
+    			<p class="card-text text-dark">It was my first try to make a site. So I decided to make CV using such technologies as HTML5 and CSS3.</p>
+        		<a href="#" class="card-link">Show more</a>
+   				 
+  		</div>
+	</div>
+</section>
             </main>
         </div>
-        <div class="col-md-2 col-sm-12 col-xs-12">
+        <div class="col-md-2 col-sm-12 col-xs-12" >
             <nav id="navbar">
-                <h3>Popular states</h3>
+                <h3 class="text-dark">Latest states:</h3>
                
-                <ul class="nav nav-pills nav-stacked">
-                 
-                    <a class="nav-link" href="#post1" rel="internal">
-                        <li>State1</li>
-                    </a>
-                    <a class="nav-link" href="#post2" rel="internal">
-                        <li>State2</li>
-                    </a>
-                    <a class="nav-link" href="#post3" rel="internal">
-                        <li>State3</li>
-                    </a>
-                    
-                 </ul>
+                <div class="card" style="width: 12rem;">
+  					<ul class="list-group list-group-flush">
+    					<li class=" btnNavPost list-group-item"><a class=" btn stretched-link" href="#post1">Post1</a></li>
+    					<li class="btnNavPost list-group-item"><a class=" btn stretched-link" href="#post2">Post2</a></li>
+    					<li class="btnNavPost list-group-item"><a class=" btn stretched-link" href="#post3">Post3</a></li>
+    					<li class="btnNavPost list-group-item"><a class=" btn stretched-link" href="#post4">Post4</a></li>
+    					<li class="btnNavPost list-group-item"><a class=" btn stretched-link" href="#post5">Post5</a></li>
+    					<li class="btnNavPost list-group-item"><a class=" btn stretched-link" href="#post6">Post6</a></li>
+ 					</ul>
+ 				</div>
             </nav>
         </div>
     </div>

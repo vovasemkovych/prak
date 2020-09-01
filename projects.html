@@ -1,42 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My projects and else</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="https://img.icons8.com/office/16/000000/parse-from-clipboard.png" >
-    <link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet">
+   <meta charset="UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="menu.css">
+	<link rel="shortcut icon" href="https://img.icons8.com/office/16/000000/parse-from-clipboard.png" >
+	<link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
-<body>
-	<ul class = "menuList">
-				<li class="menuListLines"><a href="about.html">About me</a></li>
-				<li class="menuListLines"><a href="projects.html">Projects</a></li>
-				<li class="menuListLines"><a href="contact.html">Contacts</a></li>
-				<li class="menuListLines"><a href="blog.html">Blog</a></li>
+
+    <div class="menu-wrap">
+	<input type="checkbox" class="toggler">
+	<div class="hamburger"><div></div></div>
+	<div class="menu">
+		<div>
+			<div>
+				<ul class = "menuList PrimaryNav with-indicator " >
+				<li class="menuListLines Nav-item is-active"><a href="index.html" data-hover="Home" >Home</a></li>
+				<li class="menuListLines Nav-item"><a href="about.html" data-hover="About me">About me</a></li>
+				<li class="menuListLines Nav-item"><a href="projects.html" data-hover="Projects">Projects</a></li>
+				<li class="menuListLines Nav-item"><a href="contact.html" data-hover="Contacts">Contacts</a></li>
+				<li class="menuListLines Nav-item"><a href="blog.html" data-hover="Blog">Blog</a></li>
 				
 			</ul>
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <div class="textProjects">
-    <h2 align="center">Here you can see my portfolio</h2>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+<body class="bgOneMore">
+<!-- <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="proj1"><img class="d-block w-100 carouselImg" src="images/code.jpg" alt="First slide"></a>
     </div>
-    <a href="menu.html"><img src="images/menu_ico.ico" alt="menu" style="max-width: 25px;max-height: 25px "></a><br>
-    <ul>
-    	<li><a href=""><img src="" alt="#1"></a>
-            <p>Project name</p>
-            <article>
-            <p>Some information about project #1</p>
-            </article></li>
-    	<li><a href=""><img src="" alt="#2"></a>
-            <p>Project name</p>
-            <article>
-            <p>Some information about project #2</p>
-            </article></li>
-    	<li> <a href=""><img src="" alt="#3"></a>
-            <p>Project name</p>
-            <article>
-            <p>Some information about project #3</p>
-            </article></li>
-    </ul>
+    <div class="carousel-item">
+      <a href="proj2"><img class="d-block w-100 carouselImg" src="images/bio.jpg" alt="Second slide"></a>
+    </div>
+    <div class="carousel-item">
+      <a href="proj3"><img class="d-block w-100 carouselImg" src="images/edu.jpg" alt="Third slide"></a>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div> -->
+	
+    
+    
+    <h2 align="center" style="font-family: 'Arvo', serif;-webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;" class=" font-weight-bold text-light pt-5">Here you can see my portfolio</h2>
+    
+    <div class="projDiv">
+    	<div class="card " style="width:300px;max-height: 500px;">
+    <img class="card-img-top" src="images/nope.png" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title text-dark">First CV</h4>
+    <p class="card-text text-dark">It was my first try to make a site. So I decided to make CV using such technologies as HTML5 and CSS3.</p>
+    <a href="menu.html" class="btn btn-primary btn-block ">Click on for more info</a>
+  </div>
+</div>
+
+<div class="card " style="width:300px;max-height: 500px;">
+    <img class="card-img-top" src="images/nope.png" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title text-dark">First CV</h4>
+    <p class="card-text text-dark">It was my first try to make a site. So I decided to make CV using such technologies as HTML5 and CSS3.</p>
+    <a href="menu.html" class="btn btn-primary btn-block ">Click on for more info</a>
+  </div>
+</div>
+
+<div class="card " style="width:300px;max-height: 500px;">
+    <img class="card-img-top" src="images/nope.png" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title text-dark">First CV</h4>
+    <p class="card-text text-dark">It was my first try to make a site. So I decided to make CV using such technologies as HTML5 and CSS3.</p>
+    <a href="menu.html" class="btn btn-primary btn-block ">Click on for more info</a>
+  </div>
+</div>
+
+<div class="card " style="width:300px;max-height: 500px;">
+    <img class="card-img-top" src="images/nope.png" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title text-dark">First CV</h4>
+    <p class="card-text text-dark">It was my first try to make a site. So I decided to make CV using such technologies as HTML5 and CSS3.</p>
+    <a href="menu.html" class="btn btn-primary btn-block ">Click on for more info</a>
+
+  </div>
+</div>
+
+
+
+
+    </div>
+    <br>
     </body>
 </html>

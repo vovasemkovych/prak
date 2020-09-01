@@ -1,28 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<title>Contact me</title>
 	<meta charset="UTF-8">
-	<title>My contacts</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="menu.css">
+
 	<link rel="shortcut icon" href="https://img.icons8.com/office/16/000000/parse-from-clipboard.png" >
 	<link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet"></head>
+    <script src="script.js"></script>
 </head>
-<body>
-	<ul class = "menuList">
-				<li class="menuListLines"><a href="about.html">About me</a></li>
-				<li class="menuListLines"><a href="projects.html">Projects</a></li>
-				<li class="menuListLines"><a href="contact.html">Contacts</a></li>
-				<li class="menuListLines"><a href="blog.html">Blog</a></li>
+<div class="menu-wrap">
+	<input type="checkbox" class="toggler">
+	<div class="hamburger"><div></div></div>
+	<div class="menu">
+		<div>
+			<div>
+				<ul class = "menuList PrimaryNav with-indicator " >
+				<li class="menuListLines Nav-item is-active"><a href="index.html" data-hover="Home" >Home</a></li>
+				<li class="menuListLines Nav-item"><a href="about.html" data-hover="About me">About me</a></li>
+				<li class="menuListLines Nav-item"><a href="projects.html" data-hover="Projects">Projects</a></li>
+				<li class="menuListLines Nav-item"><a href="contact.html" data-hover="Contacts">Contacts</a></li>
+				<li class="menuListLines Nav-item"><a href="blog.html" data-hover="Blog">Blog</a></li>
 				
 			</ul>
-	<div>
-		<a href="menu.html"><img src="images/menu_ico.ico" alt="menu" style="max-width: 25px;max-height: 25px "></a>
-		<ul>
-			<li><strong>E-mail:</strong><a href="mailto: v.semkovych2407@gmail.com">v.semkovych2407@gmail.com</a></li>
-			<li><strong>Phone:</strong><a href="tg://resolve?domain=@jotmina">+380997694679</a></li>
-			<li><strong>Facebook:</strong><a target="_blanc" href = "https://www.facebook.com/vova.semkovych">Vova Semkovych</a></li>
-			<li><strong>Twitter:</strong><a target="_blanc" href = "https://twitter.com/volodkasem">@volodkasem</a></li>
-		</ul>
+			</div>
+		</div>
 	</div>
+	</div>
+<body class="bg" style="background-image: url('images/contact.jpg');">
+
+	<div class="container">
+  <h1 class="display-4 text-light" style="  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: blue;">Some ways to contact me</h1>
+  <hr class="my-4">
+ <ul class="contactsUL text-light" >
+            <li><strong>E-mail:</strong><a class="ancContact"href="mailto: v.semkovych2407@gmail.com"> v.semkovych2407@gmail.com</a></li>
+            <li><strong>Phone:</strong><a class="ancContact"href="tg://resolve?domain=@jotmina"> +380997694679</a></li>
+            <li><strong>Facebook:</strong><a class="ancContact" target="_blanc" href = "https://www.facebook.com/vova.semkovych"> Vova Semkovych</a></li>
+            <li><strong>Twitter:</strong><a class="ancContact" target="_blanc" href = "https://twitter.com/volodkasem"> @volodkasem</a></li>
+        </ul>
+</div>
+
+
+
+
+
+
 </body>
 </html>
