@@ -1,7 +1,7 @@
 /* CORE STYLES */
 :root {
 
-  --overlay-color: rgba(24, 39, 51 , 1);
+  --overlay-color: linear-gradient(30deg, #FC766AFF 33%, #5F4B8BFF 66%, #5B84B1FF);
   --menu-speed: 0.75s;
 }
 
@@ -169,7 +169,7 @@
 
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
-  color: #fff;
+  color: #CDB599FF;
   font-size: 1.5rem;
   padding: 1rem;
 }
