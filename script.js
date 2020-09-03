@@ -7,5 +7,10 @@ window.location.href="#start";
 e.preventDefault();
 e.stopPropagation(); 
 }
+function toBlog(e) {
+window.location.href="#back";
+e.preventDefault();
+e.stopPropagation(); 
+}
 
       

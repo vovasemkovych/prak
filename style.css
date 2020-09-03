@@ -119,7 +119,7 @@ background-image: url("images/container.jpg")
 	border-radius: 15px;
 	border-style: groove;
   border-color: #CDB599FF; 
-  background-image: url(images/bio.jpg);
+  background-image: url(images/bio1.jpg);
   background-size: cover;
 }
 
@@ -130,7 +130,7 @@ background-image: url("images/container.jpg")
   border-radius: 15px;
   border-style: groove;
    border-color: #CDB599FF; 
-  background-image: url(images/edu.jpg);
+  background-image: url(images/edu1.jpg);
   background-size: cover;
 }
 .imgAboutS{
@@ -139,7 +139,7 @@ background-image: url("images/container.jpg")
   border-radius: 15px;
   border-style: groove;
    border-color: #CDB599FF; 
-  background-image: url(images/skills.jpg);
+  background-image: url(images/code1.jpg);
   background-size: cover;
 }
 .imgAboutH{
@@ -148,7 +148,7 @@ background-image: url("images/container.jpg")
   border-radius: 15px;
   border-style: groove;
    border-color: #CDB599FF; 
-  background-image: url(images/hobby.jpg);
+  background-image: url(images/hobby1.jpg);
   background-size: cover;
 }
 .aboutP {
@@ -267,7 +267,7 @@ background-image: url("images/container.jpg")
   height: 13em;
   border-radius: 15px;
   border-style: groove;
-  background-image: url(images/bio.jpg);
+  background-image: url(images/bio1.jpg);
   background-size: cover;
   flex-wrap: nowrap;
 }
@@ -276,7 +276,7 @@ background-image: url("images/container.jpg")
   height: 13em;
   border-radius: 15px;
   border-style: groove;
-  background-image: url(images/edu.jpg);
+  background-image: url(images/edu1.jpg);
   background-size: cover;
   flex-wrap: nowrap;
 }
@@ -285,7 +285,7 @@ background-image: url("images/container.jpg")
   height: 13em;
   border-radius: 15px;
   border-style: groove;
-  background-image: url(images/skills.jpg);
+  background-image: url(images/code1.jpg);
   background-size: cover;
   flex-wrap: nowrap;
 }
@@ -294,7 +294,7 @@ background-image: url("images/container.jpg")
   height: 13em;
   border-radius: 15px;
   border-style: groove;
-  background-image: url(images/hobby.jpg);
+  background-image: url(images/hobby1.jpg);
   background-size: cover;
   flex-wrap: nowrap;
 }
@@ -315,7 +315,7 @@ background-image: url("images/container.jpg")
   height: 13em;
   border-radius: 15px;
   border-style: groove;
-  background-image: url(images/bio.jpg);
+  background-image: url(images/bio1.jpg);
   background-size: cover;
   background-position: right center;
   padding-top: 17em;
@@ -325,9 +325,9 @@ background-image: url("images/container.jpg")
   height: 13em;
   border-radius: 15px;
   border-style: groove;
-  background-image: url(images/edu.jpg);
+  background-image: url(images/edu1.jpg);
   background-size: cover;
-  background-position: bottom center;
+  background-position:  center;
   padding-top: 17em;
 
 }
@@ -336,7 +336,7 @@ background-image: url("images/container.jpg")
   height: 13em;
   border-radius: 15px;
   border-style: groove;
-  background-image: url(images/skills.jpg);
+  background-image: url(images/code1.jpg);
   background-size: cover;
   background-position: right center;
   padding-top: 17em;
@@ -346,9 +346,9 @@ background-image: url("images/container.jpg")
   height: 13em;
   border-radius: 15px;
   border-style: groove;
-  background-image: url(images/hobby.jpg);
+  background-image: url(images/hobby1.jpg);
   background-size: cover;
-  background-position: right center;
+  background-position:  center;
   padding-top: 17em;
 }
 .flexAbout{
@@ -362,7 +362,7 @@ background-image: url("images/container.jpg")
   height: 13em;
   border-radius: 15px;
   border-style: groove;
-  background-image: url(images/bio.jpg);
+  background-image: url(images/bio1.jpg);
   background-size: cover;
  
 }
@@ -371,7 +371,7 @@ background-image: url("images/container.jpg")
   height: 13em;
   border-radius: 15px;
   border-style: groove;
-  background-image: url(images/edu.jpg);
+  background-image: url(images/edu1.jpg);
   background-size: cover;
  
 }
@@ -380,7 +380,7 @@ background-image: url("images/container.jpg")
   height: 13em;
   border-radius: 15px;
   border-style: groove;
-  background-image: url(images/skills.jpg);
+  background-image: url(images/code1.jpg);
   background-size: cover;
  
 }
@@ -389,7 +389,7 @@ background-image: url("images/container.jpg")
   height: 13em;
   border-radius: 15px;
   border-style: groove;
-  background-image: url(images/hobby.jpg);
+  background-image: url(images/hobby1.jpg);
   background-size: cover;
  
 }
@@ -428,6 +428,33 @@ padding-left: 100px;
 .main-section{
 	margin: 5px;
 }
+.topic
+{
+  padding-top:55px;
+  background-image:url(images/code2.jpg);
+  background-size:cover;  
+  border-radius:50px;
+  background-opacity: 0.5;
+ 
+  border-style: groove;
+   border-color: #CDB599FF; 
+  display: flex;
+  flex-direction: row;
+  }
+.utopic
+{
+  padding-top:155px;
+  opacity: 1;
+margin-bottom: 155px;
+  display: flex;
+  flex-direction: row;
+  }
+
+.abss{
+   border-radius: 15px;
+  border-style: groove;
+   border-color: #CDB599FF; 
+}
 .btnNavPost:hover{
 -webkit-animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 	        animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
@@ -461,15 +488,15 @@ padding-left: 100px;
   width: 5vw;
   border-style: solid;
   border-color: white;
-  border-width: 0px 1px 1px 0px;
+  border-width: 0px 0px 1px 1px;
   transform: rotate(45deg);
   transition: border-width 150ms ease-in-out;
+
 }
 
 .arrow:hover {
   border-bottom-width: 4px;
-  border-right-width: 4px;
-
+  border-left-width: 4px;
 }
 .cardM:hover {
   -webkit-animation: wobble-hor-bottom 0.8s both;
